@@ -60,5 +60,5 @@ public String pigLatin(String sWord)
     //move leading consonants
     return (sWord.substring(findFirstVowel(sWord))+sWord.substring(0, findFirstVowel(sWord))+"ay");
   }
-}
+ } 
 }//end PigLatin class
